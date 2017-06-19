@@ -3,18 +3,16 @@
   "version": "1.0.0",
   "description": "Server voor het Programmeren 4 tentamen Periode 1.4",
   "main": "server.js",
-
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-
   "engines": {
     "node": "6.11.0"
   },
   "author": "Max Koning & Cas de Pender",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^1.0.2",
+    "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
     "jwt-simple": "^0.5.1",

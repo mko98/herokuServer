@@ -3,7 +3,7 @@ var router = express.Router();
 var pool = require('../db/db_connector');
 
 var auth =  require('../auth/authentication');
-var bcrypt = require('bcrypt');
+var bcrypt = require('bcrypt-nodejs');
 
 router.all( new RegExp("[^(\/login|\/register)]"), function (req, res, next) {
 

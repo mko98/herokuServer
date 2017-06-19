@@ -4,7 +4,7 @@
   "description": "Server voor het Programmeren 4 tentamen Periode 1.4",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "engines": {
     "node": "6.11.0"
@@ -19,5 +19,11 @@
     "moment": "^2.18.1",
     "morgan": "^1.8.2",
     "mysql": "^2.13.0"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.4.2",
+    "supertest": "^3.0.0"
   }
 }

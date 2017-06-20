@@ -1,1 +1,2 @@
 web: node server.js
+NPM_CONFIG_DISTURL=https://github.com/kelektiv/node.bcrypt.js
